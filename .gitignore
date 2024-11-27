@@ -11,3 +11,5 @@
 .idea/vcs.xml
 /hw22/hw22.2/node_modules/
 /hw22/hw22.1/node_modules/
+/hw23/backend/node_modules/
+/hw23/todo/backend/node_modules/

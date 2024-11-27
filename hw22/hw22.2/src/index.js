@@ -1,4 +1,4 @@
-//import {showName} from "./js/script.js";
+//import {showName} from "./js/index.js";
 
 import {getPosts, loadComments, addNewPost} from "./js/api.js";
 import {addPostToList, renderComments} from "./js/dom.js";
