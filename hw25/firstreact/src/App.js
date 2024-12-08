@@ -1,11 +1,10 @@
 import MyComponent from "./components/MyComponent.js";
+import TodoPage from "./pages/TodoPage/TodoPage";
 
 
 function App() {
   return (
-    <div className="App">
-      <MyComponent />
-    </div>
+      <TodoPage />
   );
 }
 
