@@ -1,0 +1,1 @@
+export const postBaseUrl = 'https://jsonplaceholder.typicode.com/posts';

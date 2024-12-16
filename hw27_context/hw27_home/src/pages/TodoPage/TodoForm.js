@@ -13,7 +13,6 @@ function TodoForm(props)  {
         setTask('');
     }
 
-
     return (
         <div style={{ display: 'flex', gap: '10px' }}>
             <input

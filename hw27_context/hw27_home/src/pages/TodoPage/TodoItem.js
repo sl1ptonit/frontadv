@@ -4,6 +4,8 @@ function TodoItem(props) {
     return (
         <div style={{
                 display: "flex",
+                width: "fit-content",
+                padding: "5px",
                 gap: '5px',
                 border: '1px solid black',
                 borderRadius: '5px',
