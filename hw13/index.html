@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <h2>Contact form</h2>
+    <form id="contactForm">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" >
+        <div class="error" id="nameError"></div>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="10" cols="50"></textarea>
+        <div class="error" id="messageError"></div>
+        <p>How to answer you?</p>
+
+        <label for="phoneNumber">Phone:</label>
+        <input id="phoneNumber" type="text" name="phoneNumber">
+        <div class="error" id="phoneError"></div>
+
+        <label for="email">Email:</label>
+        <input id="email" type="text" name="email">
+        <div class="error" id="emailError"></div>
+
+        <input class="submit" type="submit" value="Send message" >
+    </form>
+<script src="main.js"></script>
+</body>
+</html>
