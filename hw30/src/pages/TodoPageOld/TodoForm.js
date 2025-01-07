@@ -1,6 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import {useDispatch} from "react-redux";
-import { addTodo } from "../../store/slices/todoSlice";
+import { addTodoSync } from "../../store/slices/todoSlice";
 
 export default function TodoForm()  {
 
@@ -11,7 +11,7 @@ export default function TodoForm()  {
     };
 
     const handleSubmit = (values) => {
-        dispatch(addTodo({id: Date.now(), task: values.task, completed: false}))
+        dispatch(addTodoSync({id: Date.now(), task: values.task, completed: false}))
         values.task = '';
     }
 
