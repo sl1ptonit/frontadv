@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #f4f4f9 !important;
+    color: #333 !important;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatarContainer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #222;
+}
+
+.title {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contactInfo {
+    font-size: 0.9em;
+    color: #777;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.job, .education, .skills {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+ul.skillList {
+    list-style: none;
+    padding: 0;
+}
+
+ul.skillList li {
+    display: inline-block;
+    background: #e0e0e0;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 20px;
+}
+
